@@ -1,0 +1,120 @@
+.main-box{
+    width: 25%;
+    box-shadow: 0 0 5px rgb(134, 124, 124) inset 0 0 10px rgb(0, 0, 0);
+    height: 95vh;
+    display: flex;
+    color: white;
+    font-weight: 500;
+}
+.main-box> .box-one{
+    width: 95%;
+    margin-left: 2.3%;
+    border: 1px solid black;
+    height: 92vh;
+    margin-top: 6px;
+    background:linear-gradient(20deg,rgb(29, 29, 31)10%,rgb(10, 10, 10) 40%);
+}
+.main-box> .box-one>.box-two{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.main-box> .box-one>.box-two>span{
+    display: flex;
+    justify-content: space-around;
+}
+.main-box> .box-one>.box-two>span>small{
+    font-size: 10px;
+    margin-top: 4px;
+}
+.main-box> .box-one>.box-two>span>button{
+    width: 80px;
+    height: 28px;
+    padding: 1px 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    background-color: rgb(59, 55, 55);
+    color: white;
+    margin-left: 2px;
+}
+.main-box> .box-one>.box-two>span>button:hover{
+    transform: scale(0.95);
+}
+.main-box> .box-one>.box-three{
+    display: flex;
+    width: 95%;
+   
+    margin-left: 2.5%;   
+    flex-direction: column; 
+}
+.main-box> .box-one>.box-three>span{
+    display: flex;
+    justify-content: space-around;
+}
+.main-box> .box-one>.box-three>span>button{
+    width: 80px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    outline: none;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+.main-box> .box-one>.box-three>span>button:hover{
+    transform: scale(0.95);
+}
+.main-box> .box-one>.box-three>span>small{
+    font-size: 10px;
+}
+.main-box>.box-one>.box-one-top{
+    width: 95%;
+    margin-left: 2.5%; 
+    height: 29vh;
+    
+    border: 1px solid rgb(34, 32, 32);
+}
+.main-box>.box-one>.box-one-top>#box-one-bottom{
+
+}
+.main-box>.box-one>.box-one-top>#box-one-bottom>button{
+    width: 70px;
+    height: 25px;
+    margin-left: 2px;
+    margin-top: 6px; 
+    outline: none;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: white;
+    background-color: rgb(82, 19, 82);
+}
+.main-box>.box-one>.box-one-top>#box-one-bottom>button:hover{
+    transform: scale(0.95);
+}
+
+.main-box>.box-one>.box-one-top>#box-one-text{
+    display: flex;
+    font-size: 13px;
+    margin-top: 4px;
+    justify-content: space-around;
+}
+.main-box>.box-one>.box-one-top>#box-one-middle{
+    width: 95%;
+    margin-left: 2.5%; 
+    margin-top: 4px;
+    height: 15vh;  
+    border: 1px solid black;
+    box-shadow: inset 0 0 8px gray; 
+}
+.main-box>.box-one>.box-one-top>#box-one-middle>input[type=text]{
+    width: 95%;
+    height: 13vh;
+    border: none;
+    box-shadow: 0 0 8px black; 
+    margin-left: 2.5%; 
+    margin-top: 5px;  
+}
+
